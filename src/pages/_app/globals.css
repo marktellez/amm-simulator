@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply bg-blue-600;
+}
+
 h1 {
-  @apply text-4xl text-gray-800 tracking-wider leading-4;
+  @apply text-4xl leading-4 tracking-wider text-gray-800;
 }

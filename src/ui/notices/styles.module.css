@@ -1,0 +1,15 @@
+.success {
+  @apply text-yellow-100 bg-yellow-500 border-yellow-300;
+}
+
+.error {
+  @apply text-red-100 bg-red-500 border-red-300;
+}
+
+.info {
+  @apply text-yellow-100 bg-yellow-500 border-yellow-300;
+}
+
+.busy {
+  @apply text-yellow-100 bg-yellow-500 border-yellow-300;
+}

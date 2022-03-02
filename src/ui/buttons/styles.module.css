@@ -1,0 +1,30 @@
+button.primary {
+  @apply px-8 py-4;
+  @apply w-full text-center;
+  @apply text-white bg-blue-800 rounded-lg shadow-lg;
+  @apply hover:bg-blue-900;
+}
+
+button.primary:enabled {
+  @apply hover:shadow-md;
+}
+
+button.secondary {
+  @apply px-8 py-2;
+  @apply w-full text-center;
+  @apply text-blue-900 bg-blue-500 rounded-sm;
+}
+
+button.secondary:enabled {
+  @apply hover:shadow-md;
+}
+
+button.outline {
+  @apply px-8 py-2;
+  @apply w-full text-center;
+  @apply text-white bg-transparent border border-gray-500 rounded-sm;
+}
+
+button.secondoutlineary:enabled {
+  @apply hover:shadow-md;
+}
